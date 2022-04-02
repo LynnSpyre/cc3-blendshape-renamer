@@ -1,2 +1,21 @@
 # cc3-blendshape-renamer
-Renames our arkit blendshapes for unity apps
+
+Just a quick script to rename the arkit blendshapes on your cc3 model, in a blender project.
+This is not good code, but again, it does the job.
+
+## Instructions
+
+**Step 1** Export your model with the "Mouth Open as Morph" option enabled.
+For your own sanity, you're probably going to want to do all of the t-pose things too. The whole t-pose dance that character creator makes you do.
+
+**Step 2** Using the cc3_blender_bake plugin, import your model with animations enabled, physics, and lighting.
+
+**Step 3** Cross open a second window, and select text editor. Click on "new," and create an empty text file.
+
+**Step 4** Paste my happy little code snippet into your text editor. It will run through all of the layers of everything in your scene, so it's super important that you have only your cc3 model in the scene for now. 
+
+**Step 5** Open the blender console to see the script output.
+
+**Step 6** Hit the play button on the text editor. This will execute your code.
+
+**Step 7** Yuh done
