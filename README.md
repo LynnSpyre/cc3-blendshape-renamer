@@ -3,6 +3,12 @@
 Just a quick script to rename the arkit blendshapes on your cc3 model, in a blender project.
 This is not good code, but again, it does the job.
 
+## Why make this?
+
+Because Cc3 models have their own naming convention for blendshapes that breaks literally any piece of software trying to use arkit, that isn't specifically designed to handle CC3 stuff. This script corrects the problem, bringing your model into line with the same naming conventions the rest of the world is using. This should save you from having to do fuzzy lookups or add interpolation layers to your unity app. Just do it, get it done.
+
+This should work for you if you have a blender to unity pipeline, or a blender to unreal engine pipeline. I haven't tested it in any other scenarios, and ymmv. It should also work if you're moving a model between cc3 and CATS.
+
 ## Instructions
 
 **Step 1** Export your model with the "Mouth Open as Morph" option enabled.
