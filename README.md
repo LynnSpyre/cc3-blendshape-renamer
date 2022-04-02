@@ -11,7 +11,7 @@ This should work for you if you have a blender to unity pipeline, or a blender t
 
 ## Instructions
 
-**Step 1** Export your model with the "Mouth Open as Morph" option enabled.
+**Step 1** Making sure to use the initial Blender preset, export your model with the "Mouth Open as Morph" option enabled.
 For your own sanity, you're probably going to want to do all of the t-pose things too. The whole t-pose dance that character creator makes you do.
 
 **Step 2** Using the cc3_blender_bake plugin, import your model with animations enabled, physics, and lighting.
